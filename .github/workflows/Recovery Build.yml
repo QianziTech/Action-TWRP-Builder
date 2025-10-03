@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/QianziTech/android_device_oplus_ossi'
+        default: 'https://github.com/QianziTech/android_device_oplus_dunhuang'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'config_change_test'
+        default: 'master'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/oplus/ossi'
+        default: 'device/oplus/dunhuang'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_ossi'
+        default: 'twrp_dunhuang'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
